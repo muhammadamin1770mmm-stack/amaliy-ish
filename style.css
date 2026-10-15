@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+ padding-top: 30px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navi{
+    display: flex;
+    gap: 30px;
+}
+.btn{
+    width: 179px;
+height: 53px;
+top: 550px;
+left: 122px;
+border-radius: 7px;
+background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+color: white;
+font-weight: 700;
+border: none;
+outline: none;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+}
+.sec1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.div3{
+    display: none;
+}
+.soz{
+     color: #8e0dbd;
+color: linear-gradient(180deg, rgba(142, 13, 189, 1) 7%, rgba(113, 51, 171, 1) 16%, rgba(97, 78, 166, 1) 51%, rgba(68, 70, 212, 1) 88%, rgba(23, 23, 209, 1) 100%);;
+
+}
+.div67{
+    width: 344px;
+    height: 414px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 30px 0px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.sec2{
+    padding-bottom: 200px;
+}
+.div66{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-3{
+ background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+ padding-top: 70px;
+ padding-bottom: 70px;
+}
+.div10{
+    position: relative;
+    width: 436px;
+    height: 187px;
+    background-color: white;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rasmd{
+    position: absolute;
+    top: -89px;
+}
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1310px) {
+    .sec3{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .div10{
+        width: 836px;
+    }
+}
+@media(max-width:1035px) {
+    .div66{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        row-gap: 70px;
+        
+    }
+    .div67{
+        width: 894px;
+        text-align: center;
+    }
+    .div67 img {
+     width: 894px;
+     height: 200px;
+    }
+}
+@media(max-width:900px) {
+ .div66{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        row-gap: 70px;
+        
+    }
+    .div67{
+        width: 594px;
+        text-align: center;
+    }
+    .div67 img {
+     width: 594px;
+     height: 200px;
+    }
+       .sec3{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .div10{
+        width: 636px;
+    }
+    .div2 img {
+        width: 100%;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        align-items: center;
+    }
+}
+@media(max-width:800px){
+    .navi{
+        display: none;
+    }
+}
+@media(max-width:640px) {
+    .div10{
+        width: 436px;
+    }
+}
+@media(max-width:600px) {
+    .sec2 h1 {
+       text-align: center;
+    }
+    .div67{
+       width: 500px;
+    }
+    .div67 img {
+        width: 500px;
+    }
+}
+@media(max-width:500px) {
+    .head img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 100px;
+    }
+    .div2 img {
+       display: none;
+    }
+    .div1{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .sec1{
+        padding-top: 40px;
+    }
+    .div3 {
+        display: block;
+        position: absolute;
+
+    }
+    .div67{
+        width: 344px;
+        height: 414px;
+    }
+    .div67 img{
+        width: 100%;
+    }
+    .div66{
+        margin-left: 0px;
+    }
+    .sec2{
+        padding-top: 100px;
+    }
+}
+@media(max-width:440px) {
+    .div10{
+        width: 267px;
+        height: 267px;
+        padding-left: 20px;
+    }
+}
